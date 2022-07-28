@@ -10,9 +10,182 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <h1>Hello, Prottoytechlab!</h1>
+    <!--Header section started-->
+    <header class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand mb-0 h1" href="#">ProttoyTechlab</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mx-5 mb-2 mb-lg-0">
+            <li class="nav-item mx-1">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link">Deals</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">Success</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+
+          <div class="ms-5">
+            <button class="btn btn-outline-success text-primary" type="submit">
+              Register
+            </button>
+          </div>
+        </div>
+      </nav>
+      <section class="mt-5">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner rounded-1">
+            <div class="carousel-item active">
+              <img
+                src="./images/cover/cover-1.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-visible d-flex">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h1>Get Started Digital Learning</h1>
+                  <p class="w-100 mx-auto">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout..
+                  </p>
+                  <div class="btn btn-primary bg-gradient-primary px-4">
+                    Get Started
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/cover/cover-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption my-2 d-visible d-md-block">
+                <h1>Get Started Digital Learning</h1>
+                <p class="w-100 mx-auto">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout..
+                </p>
+                <div class="btn btn-primary bg-gradient-primary px-4">
+                  Get Started
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/cover/cover-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption my-2 d-visible d-md-block">
+                <h1>Get Started Digital Learning</h1>
+                <p class="w-100 mx-auto">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout..
+                </p>
+                <div class="btn btn-primary bg-gradient-primary px-4">
+                  Get Started
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+    <!--Header section Ended-->
+    <!--Main Section Started-->
+    <main>
+      <section class="container mt-5">
+        <div class="w-50 mx-auto">
+          <div class="text-center">
+            <h1 class="col-12 col-lg-12 col-md-12 col-sm-12 mb-1">
+              Discover Our Popular <br />
+              Courses
+            </h1>
+          </div>
+          <p class="text-center mt-3">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./images/course/course-1.png"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Main Section Ended-->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
