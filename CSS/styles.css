@@ -24,5 +24,14 @@ h1 {
 }
 
 .working {
-  margin-top: 10%;
+  margin-top: 15%;
+}
+.bg-working {
+  background-color: #f4fafd;
+}
+.btn-primary-register {
+  background-color: white;
+}
+.btn-primary-register:hover {
+  color: rgb(212, 87, 9);
 }
