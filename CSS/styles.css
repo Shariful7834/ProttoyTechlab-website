@@ -16,3 +16,10 @@ h1 {
 .carousel-caption h1 {
   font-size: 3rem;
 }
+
+.carousel-caption {
+  bottom: initial;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
