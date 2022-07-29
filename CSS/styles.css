@@ -14,7 +14,7 @@ h1 {
   margin: auto;
 }
 .carousel-caption h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .carousel-caption {
@@ -34,4 +34,7 @@ h1 {
 }
 .btn-primary-register:hover {
   color: rgb(212, 87, 9);
+}
+.text-footer {
+  color: black;
 }
